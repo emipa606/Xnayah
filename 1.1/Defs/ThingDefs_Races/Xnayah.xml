@@ -1,5 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <ManeuverDef>
+    <defName>ToxicBite</defName>
+    <requiredCapacity>ToxicBite</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>ToxicBite</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  <ToolCapacityDef>
+    <defName>ToxicBite</defName>
+    <label>toxic biting</label>
+  </ToolCapacityDef>
   <ThingDef ParentName="AnimalThingBase">
     <defName>Xnayah</defName>
     <label>Xnayah</label>
@@ -9,12 +26,14 @@
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
       <MarketValue>800</MarketValue>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>3.50</defaultCooldownTime>
-        <meleeDamageBaseAmount>23</meleeDamageBaseAmount>
-        <meleeDamageDef>ToxicBite</meleeDamageDef>
+        <label>toxic bite</label>
+        <capacities>
+          <li>ToxicBite</li>
+        </capacities>
+        <cooldownTime>3.50</cooldownTime>
+        <power>23</power>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -25,7 +44,7 @@
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
-    </verbs>
+    </tools>
     <comps>
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>EggXnayahFertilized</eggFertilizedDef>

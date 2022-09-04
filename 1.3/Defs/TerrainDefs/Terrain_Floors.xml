@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TerrainDef Name="XarkaBase" ParentName="FloorBase" Abstract="True">
+    <texturePath>Terrain/Surfaces/Carpet</texturePath>
+    <researchPrerequisites>
+      <li>CarpetMaking</li>
+    </researchPrerequisites>
+    <costList>
+      <XarkaHair>10</XarkaHair>
+    </costList>
+    <statBases>
+      <Beauty>9</Beauty>
+    </statBases>
+  </TerrainDef>
+  <TerrainDef ParentName="XarkaBase">
+    <defName>CarpetXarka</defName>
+    <label>Xarkahair carpet</label>
+    <renderPrecedence>196</renderPrecedence>
+    <description>Smooth Dark-Purple carpet it looks beautiful.</description>
+    <color>(73,55,100)</color>
+    <designationHotKey>Misc12</designationHotKey>
+  </TerrainDef>
+</Defs>

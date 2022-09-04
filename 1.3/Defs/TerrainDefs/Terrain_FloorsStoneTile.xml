@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>TileXay</defName>
+    <label>xay tile</label>
+    <color>(73,55,100)</color>
+    <costList>
+      <BlocksXay>4</BlocksXay>
+    </costList>
+  </TerrainDef>
+</Defs>

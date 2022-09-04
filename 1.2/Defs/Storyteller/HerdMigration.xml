@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>XarkaPass</defName>
+    <label>xarka passing</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Xnayah.IncidentWorker_XarkaPass</workerClass>
+    <baseChance>1.0</baseChance>
+    <letterLabel>Animal migration: {0}</letterLabel>
+    <letterText>A group of {0} is passing through the area.\n\nThey won't attack unless provoked.</letterText>
+    <letterDef>NeutralEvent</letterDef>
+  </IncidentDef>
+</Defs>

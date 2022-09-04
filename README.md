@@ -1,14 +1,14 @@
 # Xnayah
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Maartens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=912614899
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 *The Xar race mod.*
 
@@ -23,15 +23,15 @@ Content:
 
 Currently it adds 2 monsters:
 - The Xnayah Spider (this is a monster that infests certain mechs or even creatures. It takes control of the brain and and infests it. After infested it will be able to lay eggs and reproduce. when butchered they drop special chunks which you can refine into Xay materials. (Xay is the name of the material)
-- The Xarka (This is a furry warg-like creature. Even though it looks like a warg it&apos;s a passive creature and can be easily tamed. It also produces XarkaHair when tamed)
+- The Xarka (This is a furry warg-like creature. Even though it looks like a warg it's a passive creature and can be easily tamed. It also produces XarkaHair when tamed)
 
 It also adds Materials and new buildings:
 - XayBlocks/Bricks when cutting the special chunks dropped by the Xnayah on the stonecutting table it gives you XayBlocks/Bricks. Currently you can use those bricks for walls/doors/tiles and 1 specific building.
-- And that specific building is the XarTurret. It&apos;s a very powerful turret that currently only has more hitpoints and damage (This will change in the future). It DOES need the XarTech research first however.
+- And that specific building is the XarTurret. It's a very powerful turret that currently only has more hitpoints and damage (This will change in the future). It DOES need the XarTech research first however.
 - XarkaHair produced by the Xarka can be used to make carpets
 
 It also adds a new research called:
-- XarTech this will have many Subtrees of research just like electricity. Currently it&apos;s only used for the turret.
+- XarTech this will have many Subtrees of research just like electricity. Currently it's only used for the turret.
 
 And Last but not least:
 - It adds an event that makes Xarkas wander into the area.
@@ -40,18 +40,18 @@ And Last but not least:
 Future updates will add:
 - An event involving intelligent creatures building a base next to yours (Something like when a siege happens but also having some elements of a hive infestation)
 - Another event which involves the Xnayah infestation. What it does is infest creatures(Including pawns) and slowly taking control of their brain (Among these creatures will also be colonists). It will show like a health effect
-- Buildings made out of Xay blocks ( Right now only a turret but in the future will have much more similar buildings that also need &quot;XarTech&quot;
+- Buildings made out of Xay blocks ( Right now only a turret but in the future will have much more similar buildings that also need "XarTech"
 - Sites 
 - Turrets will instead of shoot bullets, shoot orbs that will pull enemies towards the orb
 - And much more!
 
-If there&apos;s a bug or an error please tell me in the comments (Maarten) we will fix it.
+If there's a bug or an error please tell me in the comments (Maarten) we will fix it.
 
 If you wanna help develop this mod or bring suggestions or just talk about in general then join the discord and help this mod come alive again! 
 
 Fixed to BETA 18!
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -61,6 +61,7 @@ Fixed to BETA 18!
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ChunkBase">
+    <defName>XayChunk</defName>
+    <label>xay chunk</label>
+    <description>Chunks Dropped from the Xnayah mech, the chunks are cutable into Xay Blocks at the stonecutter.</description>
+    <graphicData>
+      <texPath>Things/Item/XayChunk</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <color>(100,0,100)</color>
+    </graphicData>
+    <statBases>
+      <Mass>22</Mass>
+    </statBases>
+    <thingCategories>
+      <li>StoneChunks</li>
+    </thingCategories>
+    <butcherProducts>
+      <BlocksXay>20</BlocksXay>
+    </butcherProducts>
+  </ThingDef>
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksXay</defName>
+    <label>Xay blocks</label>
+    <description>Blocks of Solid Xay. It feels slimy</description>
+    <graphicData>
+      <color>(67,66,100)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.9</MarketValue>
+      <Mass>1.1</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(67,66,100)</color>
+      <stuffAdjective>Xay</stuffAdjective>
+      <statFactors>
+        <MarketValue>0.5</MarketValue>
+        <MaxHitPoints>1.55</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <RecipeDef ParentName="MakeStoneBlocksBase">
+    <defName>MakeSmoothBlocksXay</defName>
+    <label>make smooth xay blocks</label>
+    <description>forms xay chunks into usable xay blocks.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>XayChunk</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>XayChunk</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <BlocksXay>20</BlocksXay>
+    </products>
+  </RecipeDef>
+</Defs>
