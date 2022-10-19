@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggXnayahFertilized</defName>
+    <label>Xnayah egg (fert.)</label>
+    <description>Fertilized Xnayah egg. If all goes well, it should hatch into a baby Xnayah. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/XAnimalProduct</texPath>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>500.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
+        <hatcherPawn>Xnayah</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Xarka</defName>
+    <label>xarka leather</label>
+    <description>Tanned, dried, scraped Xarka leather.</description>
+    <graphicData>
+      <color>(204,180,150)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2</MarketValue>
+      <StuffPower_Armor_Sharp>0.34</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>2</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(204,180,150)</color>
+      <commonality>0.01</commonality>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Xnayah</defName>
+    <label>xnayah skin</label>
+    <description>Dried, scraped Xnayah skin.</description>
+    <graphicData>
+      <color>(200,0,200)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <StuffPower_Armor_Sharp>0.24</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>1</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(200,0,200)</color>
+      <commonality>0.01</commonality>
+    </stuffProps>
+  </ThingDef>
+</Defs>

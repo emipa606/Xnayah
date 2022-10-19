@@ -1,11 +1,10 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace Xnayah
+namespace Xnayah;
+
+[DefOf]
+public static class PawnKindDefOf
 {
-    [DefOf]
-    public static class PawnKindDefOf
-    {
-        public static PawnKindDef Xarka;
-    }
+    public static PawnKindDef Xarka;
 }
