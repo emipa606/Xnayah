@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_XarkaPants</defName>
+    <label>Xarkapants</label>
+    <description>A complex set of xarkaskin trousers.</description>
+    <recipeMaker>
+      <researchPrerequisite>XarTech</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMapXnayah</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.5</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+      <Insulation_Cold>3</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+        <li>Spacer</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+</Defs>
