@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make smooth xay blocks -->
+  <MakeSmoothBlocksXay.label>make smooth xay blocks</MakeSmoothBlocksXay.label>
+  <!-- EN: forms xay chunks into usable xay blocks. -->
+  <MakeSmoothBlocksXay.description>forms xay chunks into usable xay blocks.</MakeSmoothBlocksXay.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <MakeSmoothBlocksXay.jobString>Cutting stone blocks from chunk.</MakeSmoothBlocksXay.jobString>
+</LanguageData>

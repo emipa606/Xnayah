@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: xarka passing -->
+  <XarkaPass.label>xarka passing</XarkaPass.label>
+  <!-- EN: Animal migration: {0} -->
+  <XarkaPass.letterLabel>Animal migration: {0}</XarkaPass.letterLabel>
+  <!-- EN: A group of {0} is passing through the area.\n\nThey won't attack unless provoked. -->
+  <XarkaPass.letterText>A group of {0} is passing through the area.
+
+They won't attack unless provoked.</XarkaPass.letterText>
+</LanguageData>

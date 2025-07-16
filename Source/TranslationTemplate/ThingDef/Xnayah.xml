@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Xnayah -->
+  <Xnayah.label>Xnayah</Xnayah.label>
+  <!-- EN: A strong spider mech infected by the notorious Xar alien-race, typically found in the jungle. -->
+  <Xnayah.description>A strong spider mech infected by the notorious Xar alien-race, typically found in the jungle.</Xnayah.description>
+  <!-- EN: toxic bite -->
+  <Xnayah.tools.toxic_bite.label>toxic bite</Xnayah.tools.toxic_bite.label>
+</LanguageData>

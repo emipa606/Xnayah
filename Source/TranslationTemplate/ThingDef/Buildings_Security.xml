@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: improvised turret bullet -->
+  <Bullet_TurretImprovised.label>improvised turret bullet</Bullet_TurretImprovised.label>
+  <!-- EN: improvised-turret gun -->
+  <Gun_TurretImprovised.label>improvised-turret gun</Gun_TurretImprovised.label>
+  <!-- EN: A improvised automatic gun made to be mounted on a turret. -->
+  <Gun_TurretImprovised.description>A improvised automatic gun made to be mounted on a turret.</Gun_TurretImprovised.description>
+  <!-- EN: improvised-turret gun -->
+  <Gun_TurretImprovised.verbs.Verb_Shoot.label>improvised-turret gun</Gun_TurretImprovised.verbs.Verb_Shoot.label>
+  <!-- EN: Xar Turret -->
+  <XarGun.label>Xar Turret</XarGun.label>
+  <!-- EN: A turret made out of Xar materials. It is surrounded by strong energy therefore it creates a huge explosion when damaged. -->
+  <XarGun.description>A turret made out of Xar materials. It is surrounded by strong energy therefore it creates a huge explosion when damaged.</XarGun.description>
+</LanguageData>
