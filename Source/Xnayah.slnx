@@ -6,4 +6,35 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="Xnayah/Xnayah.csproj" />
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Misc/">
+    <File Path="../1.7/Defs/ThingDefs_Misc/Apparel_Various.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Misc/Various_Stone.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchProjects_Tier1_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/TerrainDefs/">
+    <File Path="../1.7/Defs/TerrainDefs/Terrain_Floors.xml" />
+    <File Path="../1.7/Defs/TerrainDefs/Terrain_FloorsStoneTile.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Items/">
+    <File Path="../1.7/Defs/ThingDefs_Items/Items_Resource_AnimalProduct.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Items_Resource_Stuff.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Buildings/">
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Security.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Storyteller/">
+    <File Path="../1.7/Defs/Storyteller/HerdMigration.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Incidents.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Races/">
+    <File Path="../1.7/Defs/ThingDefs_Races/Xarka.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Races/Xnayah.xml" />
+  </Folder>
 </Solution>
